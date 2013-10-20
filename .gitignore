@@ -4,3 +4,4 @@ staticfiles
 *.log
 *.pot
 local_settings.py
+load
