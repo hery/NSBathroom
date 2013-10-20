@@ -1,3 +1,6 @@
 HR
 *.pyc
 staticfiles
+*.log
+*.pot
+local_settings.py
