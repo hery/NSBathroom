@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Loading environment. Please wait..."
+
+echo "Activating virtual environment..."
+source HR/bin/activate
+echo "Virtual environment activated."
+
+echo "Setting environment variables..."
+export DATABASE_URL=postgres://mpracoxsekgtmn:Qjz8wWW52hcjqw54Le_SSBn8jS@ec2-54-235-102-202.compute-1.amazonaws.com:5432/d7bhncmopinqd8
+echo "Environment variables set."
+
+echo "Done loading environment. Enjoy hacking!"
